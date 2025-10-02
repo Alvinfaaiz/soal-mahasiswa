@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1759389584 source:d:\c++\lat\soal mahasiswa\main.cpp
+	<iostream>
+	"mahasiswa.h"
+
+1759389584 d:\c++\lat\soal mahasiswa\mahasiswa.h
+	<string>
+
+1759389894 source:d:\c++\lat\soal mahasiswa\mahasiswa.cpp
+	<iostream>
+	"mahasiswa.h"
+
