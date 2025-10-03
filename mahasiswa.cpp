@@ -2,17 +2,17 @@
 #include "mahasiswa.h"
 
 void inputMahasiswa(Mahasiswa &mhs){
-    cout << "Nama       : ";
-    getline(cin, mhs.nama);
-    cout << "NIM        : ";
+    cout << " Nama(spasi dipisahkan '_') : ";
+    cin >> mhs.nama;
+    cout << " NIM                        : ";
     cin >> mhs.nim;
-    cout << "IPK        : ";
+    cout << " IPK(gpa/4)                 : ";
     cin >> mhs.ipk;
 }
 void tampilkanData(Mahasiswa mhs){
-    cout << " Nama      : " << mhs.nama << endl;
-    cout << " NIM       : " << mhs.nim << endl;
-    cout << " IPK       : " << mhs.ipk << endl;
+    cout << " Nama                      : " << mhs.nama << endl;
+    cout << " NIM                       : " << mhs.nim << endl;
+    cout << " IPK                       : " << mhs.ipk << endl;
 }
 float hitungRataanIpk(Mahasiswa mhs[], int totalMhs){
     float totalIpk = 0;
